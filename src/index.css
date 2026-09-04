@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background-color: #0a0e1a;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+.animated-box-frame {
+  background: linear-gradient(135deg, rgba(34, 211, 238, 0.1) 0%, rgba(245, 158, 11, 0.05) 100%);
+  transition: all 0.3s ease;
+}
+
+.animated-box-frame:hover {
+  box-shadow: 0 0 40px rgba(34, 211, 238, 0.15);
+}
+
+.neon-cyan {
+  text-shadow: 0 0 10px rgba(34, 211, 238, 0.6);
+}
+
+.neon-amber {
+  text-shadow: 0 0 10px rgba(245, 158, 11, 0.6);
+}
